@@ -8,7 +8,7 @@ const Academics: React.FC = () => {
       rank: 'State 3rd Rank',
       mark: '494/500',
       percent: '98.8%',
-      img: 'assets/1st rank.png',
+      img: 'https://img.freepik.com/free-photo/young-woman-attend-courses-girl-student-studying-holding-notebooks-showing-thumb-up-approval-recommending-company-standing-blue-background_1258-70145.jpg?semt=ais_hybrid&w=740&q=80',
       class: 'Class XII (Biology/Maths)'
     },
     {
@@ -16,7 +16,7 @@ const Academics: React.FC = () => {
       rank: 'School 2nd Rank',
       mark: '491/500',
       percent: '98.2%',
-      img: 'assets/1st rank.png',
+      img: 'https://img.freepik.com/free-photo/young-woman-attend-courses-girl-student-studying-holding-notebooks-showing-thumb-up-approval-recommending-company-standing-blue-background_1258-70145.jpg?semt=ais_hybrid&w=740&q=80',
       class: 'Class XII (Computer Science)'
     },
     {
@@ -24,7 +24,7 @@ const Academics: React.FC = () => {
       rank: 'School 3rd Rank',
       mark: '489/500',
       percent: '97.8%',
-      img: 'assets/1st rank.png',
+      img: 'https://img.freepik.com/free-photo/young-woman-attend-courses-girl-student-studying-holding-notebooks-showing-thumb-up-approval-recommending-company-standing-blue-background_1258-70145.jpg?semt=ais_hybrid&w=740&q=80',
       class: 'Class XII (Biology/Maths)'
     }
   ];

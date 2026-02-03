@@ -16,7 +16,7 @@ const Disclosure: React.FC = () => {
          {/* Page Header */}
          <section className="relative h-[40vh] flex items-center justify-center px-6 overflow-hidden">
             <img
-               src="assets/school maincampus building.png"
+               src="https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661462.jpg?semt=ais_hybrid&w=740&q=80"
                className="absolute inset-0 w-full h-full object-cover"
                alt="Public Disclosure Documentation"
             />

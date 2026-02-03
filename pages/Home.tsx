@@ -45,7 +45,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
           <div className="relative animate-in fade-in slide-in-from-right duration-1000">
             <div className="w-full aspect-[4/5] rounded-[3rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.3)] relative group">
               <img
-                src="assets/image.png"
+                src="https://stclaretemschoolchimur.edu.in/wp-content/uploads/2023/09/Chimur-Website-Photos.jpg"
                 alt="Students laughing and learning"
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               />
