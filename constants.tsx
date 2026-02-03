@@ -49,7 +49,7 @@ export const FACILITIES_DATA = [
   {
     title: 'The Great Arena',
     desc: 'State-of-the-art synthetic tracks and grounds for football, basketball, and traditional sports like Kabaddi and Silambam.',
-    img: 'assets/arena.png',
+    img: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800',
     icon: '🏆'
   },
   {

@@ -7,7 +7,7 @@ const Facilities: React.FC = () => {
     {
       title: 'Smart Learning Classrooms',
       desc: 'Every classroom is equipped with interactive smart boards, audio-visual systems, and ergonomic seating to enhance the daily learning experience.',
-      img: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=800',
+      img: 'https://img.freepik.com/free-photo/young-woman-attend-courses-girl-student-studying-holding-notebooks-showing-thumb-up-approval-recommending-company-standing-blue-background_1258-70145.jpg?semt=ais_hybrid&w=740&q=80&auto=format&fit=crop&q=80&w=800',
       icon: '💡'
     },
     {
@@ -48,30 +48,30 @@ const Facilities: React.FC = () => {
           <div className="space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">Safety & Support Infrastructure</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-               <div className="space-y-3">
-                  <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center text-xl">🛡️</div>
-                  <h4 className="font-bold text-xl">24/7 Security</h4>
-                  <p className="text-blue-100/70 text-sm">Full CCTV coverage and manned entry points with biometric tracking systems for staff and students.</p>
-               </div>
-               <div className="space-y-3">
-                  <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center text-xl">🚌</div>
-                  <h4 className="font-bold text-xl">GPS Transport</h4>
-                  <p className="text-blue-100/70 text-sm">Fleet of 22 modern buses with real-time GPS tracking for parents via our dedicated mobile application.</p>
-               </div>
-               <div className="space-y-3">
-                  <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center text-xl">💧</div>
-                  <h4 className="font-bold text-xl">RO Water Plant</h4>
-                  <p className="text-blue-100/70 text-sm">Industrial-grade reverse osmosis purification systems providing clean, safe drinking water campus-wide.</p>
-               </div>
-               <div className="space-y-3">
-                  <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center text-xl">🩺</div>
-                  <h4 className="font-bold text-xl">Health Center</h4>
-                  <p className="text-blue-100/70 text-sm">In-house medical infirmary with a full-time certified nurse and quarterly periodic checkups for all grades.</p>
-               </div>
+              <div className="space-y-3">
+                <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center text-xl">🛡️</div>
+                <h4 className="font-bold text-xl">24/7 Security</h4>
+                <p className="text-blue-100/70 text-sm">Full CCTV coverage and manned entry points with biometric tracking systems for staff and students.</p>
+              </div>
+              <div className="space-y-3">
+                <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center text-xl">🚌</div>
+                <h4 className="font-bold text-xl">GPS Transport</h4>
+                <p className="text-blue-100/70 text-sm">Fleet of 22 modern buses with real-time GPS tracking for parents via our dedicated mobile application.</p>
+              </div>
+              <div className="space-y-3">
+                <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center text-xl">💧</div>
+                <h4 className="font-bold text-xl">RO Water Plant</h4>
+                <p className="text-blue-100/70 text-sm">Industrial-grade reverse osmosis purification systems providing clean, safe drinking water campus-wide.</p>
+              </div>
+              <div className="space-y-3">
+                <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center text-xl">🩺</div>
+                <h4 className="font-bold text-xl">Health Center</h4>
+                <p className="text-blue-100/70 text-sm">In-house medical infirmary with a full-time certified nurse and quarterly periodic checkups for all grades.</p>
+              </div>
             </div>
           </div>
           <div className="relative h-[400px] rounded-[3rem] overflow-hidden shadow-2xl">
-             <img src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=800" className="w-full h-full object-cover" alt="School Transport and Campus" />
+            <img src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=800" className="w-full h-full object-cover" alt="School Transport and Campus" />
           </div>
         </div>
       </section>
@@ -80,19 +80,19 @@ const Facilities: React.FC = () => {
       <div className="text-center space-y-12">
         <h2 className="text-4xl font-bold">The Creative Courtyard</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-           {[
-             { title: 'Art Studio', img: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&q=80&w=400' },
-             { title: 'Dance Hall', img: 'https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&q=80&w=400' },
-             { title: 'Music Room', img: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&q=80&w=400' },
-             { title: 'Yoga Deck', img: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=400' }
-           ].map((e, i) => (
-             <div key={i} className="group relative h-64 rounded-3xl overflow-hidden shadow-md">
-                <img src={e.img} className="w-full h-full object-cover transition-transform group-hover:scale-110" alt={e.title} />
-                <div className="absolute inset-0 bg-black/40 flex items-center justify-center transition-opacity opacity-100 group-hover:opacity-60">
-                   <h5 className="text-white font-bold text-xl">{e.title}</h5>
-                </div>
-             </div>
-           ))}
+          {[
+            { title: 'Art Studio', img: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&q=80&w=400' },
+            { title: 'Dance Hall', img: 'https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&q=80&w=400' },
+            { title: 'Music Room', img: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&q=80&w=400' },
+            { title: 'Yoga Deck', img: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=400' }
+          ].map((e, i) => (
+            <div key={i} className="group relative h-64 rounded-3xl overflow-hidden shadow-md">
+              <img src={e.img} className="w-full h-full object-cover transition-transform group-hover:scale-110" alt={e.title} />
+              <div className="absolute inset-0 bg-black/40 flex items-center justify-center transition-opacity opacity-100 group-hover:opacity-60">
+                <h5 className="text-white font-bold text-xl">{e.title}</h5>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
